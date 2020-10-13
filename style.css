@@ -1,0 +1,32 @@
+#title_three,
+#title_four {
+  text-align: center;
+  color: teal;
+  font-size: 28px;
+  font-style: italic;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+#task_form,
+#task_filter,
+#row_one {
+  text-align: center;
+  font-size: 16px;
+}
+
+#task_filter {
+  margin-left: 320px;
+  margin-top: 8px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#tasks {
+  margin-right: 300px;
+  font-size: 16px;
+}
+
+#clear_task-btn {
+  margin: auto;
+}

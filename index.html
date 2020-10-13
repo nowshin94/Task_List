@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Task List</title>
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <hr />
+      <br />
+      <h3 id="title_three">Task List</h3>
+      <br />
+      <form action="" id="task_form">
+        <input type="text" id="new_task" placeholder="New task" />
+        <input type="submit" value="Add Task" />
+      </form>
+      <hr />
+      <h4 id="title_four">Tasks</h4>
+      <br /><br />
+      <div class="container">
+        <div id="row_one" class="row">
+          <div class="col-sm-5">
+            <input
+              type="text"
+              name=""
+              id="task_filter"
+              placeholder="Filter Task"
+            />
+          </div>
+          <div class="col-sm-7"><ul id="tasks"></ul></div>
+        </div>
+        <br />
+        <hr />
+        <br />
+        <div class="row">
+          <div class="col">
+            <button class="btn btn-info btn-lg btn-block" id="clear_task-btn">
+              Clear Tasks
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
