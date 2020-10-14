@@ -19,18 +19,41 @@
       <br />
       <hr />
       <br />
-      <h3 id="title_three">Task List</h3>
+      <div class="container">
+        <div class="row">
+          <div id="img1" class="col-sm-4">
+            <img
+              src="/IMG/task.jpg"
+              alt=""
+              srcset=""
+              height="210px"
+              width="230px"
+            />
+          </div>
+          <div class="col-sm-2"></div>
+          <div class="col-sm-4">
+            <h3 id="title_three">Task List</h3>
+          </div>
+        </div>
+      </div>
       <br />
       <form action="" id="task_form">
         <input type="text" id="new_task" placeholder="New task" />
-        <input type="submit" value="Add Task" />
+        <br />
+        <br />
+        <input
+          id="butt1"
+          class="btn btn-lg btn-block"
+          type="submit"
+          value="Add Task"
+        />
       </form>
       <hr />
-      <h4 id="title_four">Tasks</h4>
+      <h4 id="title_four">📝 Tasks</h4>
       <br /><br />
       <div class="container">
         <div id="row_one" class="row">
-          <div class="col-sm-5">
+          <div class="col">
             <input
               type="text"
               name=""
@@ -38,14 +61,17 @@
               placeholder="Filter Task"
             />
           </div>
-          <div class="col-sm-7"><ul id="tasks"></ul></div>
+        </div>
+        <br /><br />
+        <div class="row">
+          <div class="col"><ul id="tasks"></ul></div>
         </div>
         <br />
         <hr />
         <br />
         <div class="row">
           <div class="col">
-            <button class="btn btn-info btn-lg btn-block" id="clear_task-btn">
+            <button class="btn btn-lg btn-block" id="clear_task-btn">
               Clear Tasks
             </button>
           </div>
