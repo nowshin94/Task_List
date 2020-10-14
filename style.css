@@ -39,6 +39,7 @@
 #butt1 {
   background-color: teal;
   color: white;
+  font-weight: bold;
 }
 
 #new_task {
